@@ -1,3 +1,5 @@
+'use strict'
+
 function newTeam(title, leader, members, agenda = '', isEvil = false) {
     return {
         title: title,

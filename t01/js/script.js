@@ -1,16 +1,16 @@
-"use strict";
+'use strict';
 
 function getFormattedDate(dateObject) {
     let date;
     let timeDayWeek;
     let dayOfWeek = [
-        "Sunday",
-        "Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday",
-        "Saturday",
+        'Sunday',
+        'Monday',
+        'Tuesday',
+        'Wednesday',
+        'Thursday',
+        'Friday',
+        'Saturday',
     ];
 
     date = String(isLess(dateObject.getDate())
