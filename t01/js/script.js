@@ -29,3 +29,4 @@ function getFormattedDate(dateObject) {
 }
 
 function isLess(n) {return (n < 10) ? `0${n}` : n};
+ 
