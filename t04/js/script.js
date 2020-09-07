@@ -12,7 +12,7 @@ function concat(string1, string2) {
         : string1 + ' ' + string2);
 }
 
-// let smth = concat('Hi');
-// let out = smth();
+let smth = concat('Hi');
+let out = smth();
 
-// console.log(out);
+console.log(out);

@@ -1,3 +1,5 @@
+'use strict'
+
 function myCalculator(arg) {
     this.result = arg;
     this.init = function(num) {
@@ -25,6 +27,3 @@ function myCalculator(arg) {
         return this;
     };
 }
-
-let calc = new myCalculator(5);
-// console.log(calc.init(2).add(2).mul(3).div(4).sub(2).result);
