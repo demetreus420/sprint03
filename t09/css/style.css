@@ -42,7 +42,7 @@ h1 {
 }
 
 #menu #count-turn {
-    font-size: 48px;
+    font-size: 32px;
 }
 
 #menu #player-1 {
@@ -51,6 +51,16 @@ h1 {
 
 #menu #player-2 {
     background-color: rgb(207, 207, 207);
+}
+
+#menu #won {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    grid-row-start: 6;
+    color: rgb(235, 235, 235);
+    font-size: 32px;
 }
 
 #menu #restart-game {
@@ -78,8 +88,8 @@ h1 {
     justify-content: center;
     height: 200px;
     background-color: silver;
-    border-bottom: 8px rgb(90, 90, 90) solid;
-    color: white;
+    border-bottom: 6px rgb(131, 131, 131) solid;
+    color: rgb(90, 90, 90);
     font-size: 120px;
     font-weight: bolder;
 
@@ -92,5 +102,4 @@ h1 {
     6px 5px rgb(250,195,0), 6px 6px rgb(239,174,0),
     7px 6px rgb(249,194,0), 7px 7px rgb(238,173,0),
     8px 7px rgb(248,193,0), 8px 8px rgb(237,172,0);
-}
 }
