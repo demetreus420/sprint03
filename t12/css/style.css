@@ -1,0 +1,101 @@
+* {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form div {
+    display: flex;
+    justify-content: space-between;
+}
+
+form div * {
+    padding: 10px;
+    margin: 0;
+    border: none;
+    border-radius: 5px;
+
+}
+
+form div #add {
+    color: white;
+    padding: 10px 20px;
+}
+
+input[type="button"]:hover {
+    box-shadow: 0 0 2px 1px rgb(0, 163, 161);
+}
+
+input[type="button"]:focus {
+    outline: 0 !important;
+    box-shadow: 0 0 3px 1px rgba(10, 202, 199, 0.611);
+}
+
+form div *[type="button"] {
+    transition: .3s;
+    background: rgb(238, 186, 186);
+    padding: 10px 20px;
+}
+
+form * {
+    margin: 15px;
+}
+
+form #text {
+    background: rgb(227,199,199);
+    background: linear-gradient(90deg, rgba(227,199,199,1) 0%, rgba(217,217,217,1) 33%, rgba(191,225,232,1) 100%);    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+form div #textForCookie {
+    background: rgba(255, 255, 255, 0.364);
+    width: 400px;
+    height: 200px;
+    margin-top: 0;
+    border: 2px solid rgb(0, 195, 255);
+    resize: none;
+}
+
+#textForCookie:focus {
+    outline: none !important;
+    box-shadow:
+        0 0 0 2px hsl(0, 100%, 50%);
+}
+
+form #text * {
+    margin: 5px;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+#notes {
+    background: rgb(227,199,199);
+    background: linear-gradient(90deg, rgba(227,199,199,1) 0%, rgba(217,217,217,1) 33%, rgba(191,225,232,1) 100%);    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#notes div {
+    background: transparent;
+    margin: 0;
+    padding: 4px;
+}
+
+#notes p {
+    padding: 6px;
+    margin: 0;
+    background-color: rgba(255, 255, 255, 0.364);
+}
